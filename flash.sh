@@ -3,7 +3,8 @@
 
 # credit:
 # https://stackoverflow.com/questions/25532773/change-background-color-of-active-or-inactive-pane-in-tmux/33553372#33553372
-# 
+# https://stackoverflow.com/questions/32009787/bash-how-can-the-terminal-be-set-to-flash
+# https://stackoverflow.com/questions/5297638/bash-how-to-end-infinite-loop-with-any-key-pressed
 
 # check if tmux version is < 2.1
 tmux_is_old=$(awk -v n1="$(tmux -V| cut -d' ' -f2)" -v n2="2.1" 'BEGIN {printf (n1<n2?"1":"0")}')
